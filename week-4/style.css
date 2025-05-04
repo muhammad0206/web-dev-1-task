@@ -1,0 +1,19 @@
+body{
+    background-color: brown;
+}
+
+h1,p{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1:hover{
+    color: greenyellow;
+}
+
+p{
+    text-shadow: 5px 5px 10px rgb(253,252,251);
+}
