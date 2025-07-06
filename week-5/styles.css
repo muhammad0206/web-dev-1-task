@@ -1,0 +1,115 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0px;
+    right:0px;
+    left:0px;
+    text-align: center;
+    height: 65px;
+    background-color: gray;
+    color: white;
+}
+
+h1,p{
+    display: inline;
+    margin: 0px;
+
+
+}
+h1{
+    margin-top: 5px;
+}
+
+.img{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 32.5px;
+}
+
+/*luuuu*/
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  right: 5px;
+  top: 10px;
+  width: 32.5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: fixed;
+  right: 5px;
+  top: 30px;
+  z-index: 2;
+}
+
+.Newton{
+    position:absolute;
+    top:65px;
+    left:0px;
+    padding: 10px;
+    max-width: 150px;
+    width: 100%;
+    height: 500px;
+    background-color: #d1c7bd;
+}
+
+.shoot{
+    display:inline;
+}
+.gambar{
+    display:none;
+}
+.shoot:clicked .gambar{
+    display: block;
+    position: fixed;
+    left:150px;
+    top: 120px;
+    z-index:4;
+}
+
+.Newton2{
+    position:absolute;
+    top:65px;
+    left:170px;
+    padding: 10px;
+    max-width: 150px;
+    width: 100%;
+    height: 500px;
+    background-color: #d1c7bd;
+
+}
+
+.Newton3{
+  position:absolute;
+  top:65px;
+  left:330px;
+  padding: 10px;
+  max-width: 150px;
+  width: 100%;
+  height: 500px;
+  background-color: #d1c7bd;
+}
